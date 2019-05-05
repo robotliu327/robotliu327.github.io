@@ -8,19 +8,19 @@
   <link rel="dns-prefetch" href="http://yoursite.com">
   <title>Problem Encounted in Blogging | RobotLiu</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="今天是第一次写自己的 Blog ，使用Github + Hexo 期间遇到两个问题记录。 Quick Start : Reference 初次搭建Blog：GitHub + Hexo github官方教程-changeing a remote’s url git 官方教程 yilia 主题  问题1：以前的remote repository与现有的仓库提交上有冲突">
+  <meta name="description" content="今天是第一次写自己的 Blog ，使用Github + Hexo 期间遇到两个问题记录。 Quick Start : Reference1.初次搭建Blog：GitHub + Hexo2.github官方教程-changeing a remote’s url3.git 官方教程4.yilia 主题 问题1：以前的remote repository与现有的仓库提交上有冲突">
 <meta name="keywords" content="study">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Problem Encounted in Blogging">
 <meta property="og:url" content="http://yoursite.com/2019/05/05/Problem-Encounted-in-Blogging/index.html">
 <meta property="og:site_name" content="RobotLiu">
-<meta property="og:description" content="今天是第一次写自己的 Blog ，使用Github + Hexo 期间遇到两个问题记录。 Quick Start : Reference 初次搭建Blog：GitHub + Hexo github官方教程-changeing a remote’s url git 官方教程 yilia 主题  问题1：以前的remote repository与现有的仓库提交上有冲突">
+<meta property="og:description" content="今天是第一次写自己的 Blog ，使用Github + Hexo 期间遇到两个问题记录。 Quick Start : Reference1.初次搭建Blog：GitHub + Hexo2.github官方教程-changeing a remote’s url3.git 官方教程4.yilia 主题 问题1：以前的remote repository与现有的仓库提交上有冲突">
 <meta property="og:locale" content="zh-cn">
 <meta property="og:image" content="http://yoursite.com/img/error_remote_repo.png">
-<meta property="og:updated_time" content="2019-05-05T12:14:24.163Z">
+<meta property="og:updated_time" content="2019-05-05T12:27:45.408Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Problem Encounted in Blogging">
-<meta name="twitter:description" content="今天是第一次写自己的 Blog ，使用Github + Hexo 期间遇到两个问题记录。 Quick Start : Reference 初次搭建Blog：GitHub + Hexo github官方教程-changeing a remote’s url git 官方教程 yilia 主题  问题1：以前的remote repository与现有的仓库提交上有冲突">
+<meta name="twitter:description" content="今天是第一次写自己的 Blog ，使用Github + Hexo 期间遇到两个问题记录。 Quick Start : Reference1.初次搭建Blog：GitHub + Hexo2.github官方教程-changeing a remote’s url3.git 官方教程4.yilia 主题 问题1：以前的remote repository与现有的仓库提交上有冲突">
 <meta name="twitter:image" content="http://yoursite.com/img/error_remote_repo.png">
   
     <link rel="alternative" href="/atom.xml" title="RobotLiu" type="application/atom+xml">
@@ -194,53 +194,28 @@
     <div class="article-entry" itemprop="articleBody">
       
         <p>  今天是第一次写自己的 <a href="https://robotliu327.github.io/" target="_blank" rel="noopener">Blog</a> ，使用Github + Hexo 期间遇到两个问题记录。</p>
-<h2 id="Quick-Start-Reference"><a href="#Quick-Start-Reference" class="headerlink" title="Quick Start : Reference"></a>Quick Start : Reference</h2><ol>
-<li><a href="https://www.cnblogs.com/liuxianan/p/build-blog-website-by-hexo-github.html#%E4%B8%8A%E4%BC%A0%E5%88%B0github" target="_blank" rel="noopener">初次搭建Blog：GitHub + Hexo</a></li>
-<li><a href="https://help.github.com/en/articles/changing-a-remotes-url" target="_blank" rel="noopener">github官方教程-changeing a remote’s url</a></li>
-<li><a href="https://git-scm.com/book/zh/v1/%E8%B5%B7%E6%AD%A5" target="_blank" rel="noopener">git 官方教程</a></li>
-<li><a href="https://github.com/litten/hexo-theme-yilia" target="_blank" rel="noopener">yilia 主题</a></li>
-</ol>
+<h2 id="Quick-Start-Reference"><a href="#Quick-Start-Reference" class="headerlink" title="Quick Start : Reference"></a>Quick Start : Reference</h2><p>1.<a href="https://www.cnblogs.com/liuxianan/p/build-blog-website-by-hexo-github.html#%E4%B8%8A%E4%BC%A0%E5%88%B0github" target="_blank" rel="noopener">初次搭建Blog：GitHub + Hexo</a><br>2.<a href="https://help.github.com/en/articles/changing-a-remotes-url" target="_blank" rel="noopener">github官方教程-changeing a remote’s url</a><br>3.<a href="https://git-scm.com/book/zh/v1/%E8%B5%B7%E6%AD%A5" target="_blank" rel="noopener">git 官方教程</a><br>4.<a href="https://github.com/litten/hexo-theme-yilia" target="_blank" rel="noopener">yilia 主题</a></p>
 <h3 id="问题1：以前的remote-repository与现有的仓库提交上有冲突"><a href="#问题1：以前的remote-repository与现有的仓库提交上有冲突" class="headerlink" title="问题1：以前的remote repository与现有的仓库提交上有冲突"></a>问题1：以前的remote repository与现有的仓库提交上有冲突</h3><a id="more"></a>
-<ol>
-<li><p>产生：在本地加载好主题，可以实现在<code>hexo s</code> 开启本地预览，打开浏览器访问 <a href="http://localhost:4000" target="_blank" rel="noopener">http://localhost:4000</a> 是正常的。</p>
-</li>
-<li><p>现象：准备使用 <code>hexo deploy</code> 将本地仓库推送到github上面出现如下报错：<img src="/img/error_remote_repo.png" alt></p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">nothing to coommit,working tree clean</span><br><span class="line">Enter passpharse for key &apos;/c/Users/RobotLiu/.ssh/id_rsa&apos;:</span><br><span class="line">ERROR:Repository not found</span><br><span class="line">fatal:Could not read from remote repository.</span><br><span class="line"></span><br><span class="line">please make sure you have the correct access rights and the repository exists.</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>查找原因：</p>
-</li>
-</ol>
+<p>1.产生：在本地加载好主题，可以实现在<code>hexo s</code> 开启本地预览，打开浏览器访问 <a href="http://localhost:4000" target="_blank" rel="noopener">http://localhost:4000</a> 是正常的。</p>
+<p>2.现象：准备使用 <code>hexo deploy</code> 将本地仓库推送到github上面出现如下报错：<img src="/img/error_remote_repo.png" alt><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">nothing to coommit,working tree clean</span><br><span class="line">Enter passpharse for key &apos;/c/Users/RobotLiu/.ssh/id_rsa&apos;:</span><br><span class="line">ERROR:Repository not found</span><br><span class="line">fatal:Could not read from remote repository.</span><br><span class="line"></span><br><span class="line">please make sure you have the correct access rights and the repository exists.</span><br></pre></td></tr></table></figure></p>
+<p>3.查找原因：</p>
 <ul>
 <li><p>远程仓库出错，怀疑和之前我使用Git提交仓库时，进行全局设置提交到<a href="mailto:git@github.com" target="_blank" rel="noopener">git@github.com</a>:robotliu327/test_website.git这个仓库，但是我在F:\Git\hexo_config.yml设置时deploy&gt;&gt;repository: <a href="mailto:git@github.com" target="_blank" rel="noopener">git@github.com</a>:robotliu327/robotliu327.github.io.git 是这个仓库，所以二者起了冲突</p>
 <blockquote>
-<p>使用git命令查看当前配置下我提交到仓库的url</p>
-<blockquote>
-<p>config 配置有system级别 global（用户级别） 和local（当前仓库）三个</p>
-<blockquote>
-<p><a href="https://www.cnblogs.com/merray/p/6006411.html" target="_blank" rel="noopener">参考git config命令</a></p>
-<ol>
-<li><code>git config --local  --list</code><ul>
-<li><a href="mailto:`remote.origin.url=git@github.com" target="_blank" rel="noopener">`remote.origin.url=git@github.com</a>:robotliu327/test_website.git`</li>
-</ul>
-</li>
-</ol>
-</blockquote>
-</blockquote>
+<p>使用git命令查看当前配置下我提交到仓库的url<br>config 配置有system级别 global（用户级别） 和local（当前仓库）三个<br><a href="https://www.cnblogs.com/merray/p/6006411.html" target="_blank" rel="noopener">参考git config命令</a><br><code>git config --local  --list</code><br><a href="mailto:`remote.origin.url=git@github.com" target="_blank" rel="noopener">`remote.origin.url=git@github.com</a>:robotliu327/test_website.git`</p>
 </blockquote>
 </li>
 <li><p>改变git local 下面的远程提交的到仓库的url</p>
 <blockquote>
-<p><a href="https://help.github.com/en/articles/changing-a-remotes-url" target="_blank" rel="noopener">Changing a remote’s URl</a></p>
+<p><a href="https://help.github.com/en/articles/changing-a-remotes-url" target="_blank" rel="noopener">参考：Changing a remote’s URl</a></p>
 <blockquote>
-<p>先删除本地的origin的url– <code>git remote rm origin</code> 可以使用<code>git config --local  --list</code>查看<br><code>git remote set-url [old remote name: &quot;origin&quot; means old remote repository url] [A new URL for the remote url]</code></p>
+<p>先删除本地的origin的url— <code>git remote rm origin</code> 可以使用<code>git config --local  --list</code>查看<br><code>git remote set-url [old remote name: &quot;origin&quot; means old remote repository url] [A new URL for the remote url]</code></p>
 </blockquote>
 </blockquote>
 </li>
 </ul>
-<ol start="4">
-<li>相关经验：</li>
-</ol>
-<h3 id="问题2：Github上面SSH-Key加密传输协议"><a href="#问题2：Github上面SSH-Key加密传输协议" class="headerlink" title="问题2：Github上面SSH Key加密传输协议"></a>问题2：Github上面SSH Key加密传输协议</h3><p><strong>总结：所以一般一台主机链接一个github账户只需要生成一个ssh key即可，代表这台电脑被github接受，但是github上面可以生产多个SSh key 意味着一个github账户可以接受多台主机的认证，这样你可以使用不同的电脑上使用加密传输</strong><br>众所周知ssh key是加密传输。<br>加密传输的算法有好多，git使用rsa，rsa要解决的一个核心问题是，如何使用一对特定的数字，使其中一个数字可以用来加密，而另外一个数字可以用来解密。这两个数字就是你在使用git和github的时候所遇到的public key也就是公钥以及private key私钥。<br>其中，公钥就是那个用来加密的数字，这也就是为什么你在本机生成了公钥之后，要上传到github的原因。从github发回来的，用那公钥加密过的数据，可以用你本地的私钥来还原。<br>如果你的key丢失了，不管是公钥还是私钥，丢失一个都不能用了，解决方法也很简单，重新再生成一次，然后在<a href="http://github.com里再设置一次就行" target="_blank" rel="noopener">http://github.com里再设置一次就行</a></p>
+<p>4.相关经验：</p>
+<h3 id="问题2：Github上面SSH-Key加密传输协议"><a href="#问题2：Github上面SSH-Key加密传输协议" class="headerlink" title="问题2：Github上面SSH Key加密传输协议"></a>问题2：Github上面SSH Key加密传输协议</h3><p><strong>总结：所以一般一台主机链接一个github账户只需要生成一个ssh key即可，代表这台电脑被github接受，但是github上面可以生产多个SSh key 意味着一个github账户可以接受多台主机的认证，这样你可以使用不同的电脑上使用加密传输</strong><br>众所周知ssh key是加密传输。加密传输的算法有好多，git使用rsa，rsa要解决的一个核心问题是，如何使用一对特定的数字，使其中一个数字可以用来加密，而另外一个数字可以用来解密。这两个数字就是你在使用git和github的时候所遇到的public key也就是公钥以及private key私钥。<br>其中，公钥就是那个用来加密的数字，这也就是为什么你在本机生成了公钥之后，要上传到github的原因。从github发回来的，用那公钥加密过的数据，可以用你本地的私钥来还原。<br>如果你的key丢失了，不管是公钥还是私钥，丢失一个都不能用了，解决方法也很简单，重新再生成一次，然后在<a href="http://github.com里再设置一次就行" target="_blank" rel="noopener">http://github.com里再设置一次就行</a></p>
 
       
 
@@ -536,7 +511,7 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
     
     	<section class="tools-section tools-section-me" q-show="aboutme">
   	  	
-  	  		<div class="aboutme-wrap" id="js-aboutme">肄业中&lt;br&gt;__爱车，爱菇凉，爱民谣__&lt;br&gt; 墓志铭：Go and Null。</div>
+  	  		<div class="aboutme-wrap" id="js-aboutme">肄业中 &lt;br&gt;&lt;br&gt;__爱车，爱菇凉，爱民谣__&lt;br&gt;&lt;br&gt;墓志铭：Go and Null。</div>
   	  	
     	</section>
     
